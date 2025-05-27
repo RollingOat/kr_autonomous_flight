@@ -73,3 +73,9 @@ This is a multi-year project. We gratefully acknowledge contributions from our c
 
 This code is released using the Penn Software Licence.
 Please refer to `LICENSE.txt` for details.
+
+## Test Build Command
+
+```
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select 
+```
