@@ -77,5 +77,5 @@ Please refer to `LICENSE.txt` for details.
 ## Test Build Command
 
 ```
-colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select 
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select gazebo_utils kr_mav_msgs kr_planning_msgs mrsl_models mrsl_quadrotor_description mrsl_quadrotor_launch mrsl_quadrotor_utils
 ```
